@@ -24,11 +24,11 @@ const game = new Phaser.Game(config);
 
 function preload() {
     // Load your tilemap JSON and tileset image
-    this.load.tilemapTiledJSON('tilemap', 'src/tilemap.json');
-    this.load.image('tileset', 'src/tileset.png');
+    this.load.tilemapTiledJSON('tilemap', 'gimkahoolet/src/tilemap.json');
+    this.load.image('tileset', 'gimkahoolet/src/tileset.png');
 
     // Load your character sprite
-    this.load.image('character', 'src/character.png');
+    this.load.image('character', 'gimkahoolet/src/character.png');
 }
 
 function create() {
